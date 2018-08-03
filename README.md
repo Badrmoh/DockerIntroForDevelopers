@@ -14,4 +14,4 @@ Some commands:
 
 - stop docker-compose : docker-compose down
 
-- connect to mysql database (needs mysql client installed) : mysql -h <host's ip> -P <port number> -u root <database-name> -p
+- connect to mysql database (needs mysql client installed) : mysql -h <ip> -P <port> -u root <database-name> -p
