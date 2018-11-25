@@ -9,17 +9,12 @@ services:
     networks:
       frontend:
         ipv4_address: 10.0.0.2
-    #working_dir: /app
-    #tty: true
-    #stdin_open: true
-    #command:  "ch && /bin/bash"
 
   db:
     image: mariadb
     networks:
       frontend:
         ipv4_address: 10.0.0.5
-    #restart: always
     tty: true
     stdin_open: true
     environment:
